@@ -58,6 +58,19 @@ main .wrapper {
 	display: block;
 	height: 360px;
 	float: left;
+	position: relative;
+}
+.person:hover:after {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 130px;
+	min-height: 100px;
+	content: " ";
+	display: block;
+	z-index: 1;
+	background: url(images/numbers/01.svg) no-repeat transparent;
+	background-size: contain;
 }
 .meta {
 	padding: 10px 0;
@@ -111,3 +124,49 @@ footer strong {
 .tutors_headline em {
 	font-style: normal;
 }
+
+.n02:hover:after { background-image: url(images/numbers/02.svg);}
+.n03:hover:after { background-image: url(images/numbers/03.svg);}
+.n04:hover:after { background-image: url(images/numbers/04.svg);}
+.n05:hover:after { background-image: url(images/numbers/05.svg);}
+.n06:hover:after { background-image: url(images/numbers/06.svg);}
+.n07:hover:after { background-image: url(images/numbers/07.svg);}
+.n08:hover:after { background-image: url(images/numbers/08.svg);}
+.n09:hover:after { background-image: url(images/numbers/09.svg);}
+.n10:hover:after { background-image: url(images/numbers/10.svg);}
+.n11:hover:after { background-image: url(images/numbers/11.svg);}
+.n12:hover:after { background-image: url(images/numbers/12.svg);}
+.n13:hover:after { background-image: url(images/numbers/13.svg);}
+.n14:hover:after { background-image: url(images/numbers/14.svg);}
+.n15:hover:after { background-image: url(images/numbers/15.svg);}
+.n16:hover:after { background-image: url(images/numbers/16.svg);}
+.n17:hover:after { background-image: url(images/numbers/17.svg);}
+.n18:hover:after { background-image: url(images/numbers/18.svg);}
+.n19:hover:after { background-image: url(images/numbers/19.svg);}
+.n20:hover:after { background-image: url(images/numbers/20.svg);}
+.n21:hover:after { background-image: url(images/numbers/21.svg);}
+.n22:hover:after { background-image: url(images/numbers/22.svg);}
+.n23:hover:after { background-image: url(images/numbers/23.svg);}
+.n24:hover:after { background-image: url(images/numbers/24.svg);}
+.n25:hover:after { background-image: url(images/numbers/25.svg);}
+.n26:hover:after { background-image: url(images/numbers/26.svg);}
+.n27:hover:after { background-image: url(images/numbers/27.svg);}
+.n28:hover:after { background-image: url(images/numbers/28.svg);}
+.n29:hover:after { background-image: url(images/numbers/29.svg);}
+.n30:hover:after { background-image: url(images/numbers/30.svg);}
+.n31:hover:after { background-image: url(images/numbers/31.svg);}
+.n32:hover:after { background-image: url(images/numbers/32.svg);}
+.n33:hover:after { background-image: url(images/numbers/33.svg);}
+.n34:hover:after { background-image: url(images/numbers/34.svg);}
+.n35:hover:after { background-image: url(images/numbers/35.svg);}
+.n36:hover:after { background-image: url(images/numbers/36.svg);}
+.n37:hover:after { background-image: url(images/numbers/37.svg);}
+.n38:hover:after { background-image: url(images/numbers/38.svg);}
+.n39:hover:after { background-image: url(images/numbers/39.svg);}
+.n40:hover:after { background-image: url(images/numbers/40.svg);}
+.n41:hover:after { background-image: url(images/numbers/41.svg);}
+.n42:hover:after { background-image: url(images/numbers/42.svg);}
+.n43:hover:after { background-image: url(images/numbers/43.svg);}
+.n44:hover:after { background-image: url(images/numbers/44.svg);}
+.n45:hover:after { background-image: url(images/numbers/45.svg);}
+.n46:hover:after { background-image: url(images/numbers/46.svg);}
