@@ -77,11 +77,37 @@ main .wrapper {
 
 /* footer */
 footer .wrapper {
-	padding: 60px 20px;
 	max-width: 1280px;
+}
+footer header {
+	padding: 60px 20px;
+	
 	text-align: center;
 }
-footer p {
+footer header p {
 	margin-top: 20px;
 	color: #8a8d8f;
+}
+footer strong {
+	color: #8a8d8f;
+}
+.foreword {
+	padding: 20px;
+	max-width: 500px;
+}
+.foreword p {
+	margin-bottom: 20px;
+}
+.credits {
+	padding: 20px;
+	max-width: 500px;	
+}
+.credits_list {
+	margin-bottom: 20px;
+}
+.credits_headline {
+	margin-top: 20px;
+}
+.tutors_headline em {
+	font-style: normal;
 }
