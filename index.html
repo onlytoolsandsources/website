@@ -6,6 +6,18 @@
 	<link rel="icon" href="favicon.png">
 	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/ac2142c0-c25c-4389-9644-6d0af8fd2e6d.css"/>
 	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$(window).load(function() {
+			$(function () {
+			    var parent = $(".people");
+			    var divs = parent.children();
+			    while (divs.length) {
+			        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+			    }
+			});
+		});
+	</script>
 	<script>
 	  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
 	  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
