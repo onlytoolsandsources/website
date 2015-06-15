@@ -33,10 +33,14 @@ img {
 @media only screen and (min-device-width : 320px) and (max-device-width : 1024px) { html { -webkit-text-size-adjust: none; } }
 
 /* header */
+header {
+	background: #F9E93C;
+}
 header .wrapper {
 	padding: 60px 20px;
 	max-width: 400px;
 	text-align: center;
+	margin: 0 auto;
 }
 header p {
 	margin-top: 20px;
@@ -49,6 +53,7 @@ main .wrapper {
 }
 .people {
 	max-width: 1320px;
+	margin: 0 auto;
 }
 .person {
 	min-width: 180px;
@@ -60,12 +65,12 @@ main .wrapper {
 	float: left;
 	position: relative;
 }
-.person:hover:after {
+.person:after {
 	position: absolute;
 	left: 10px;
 	top: 10px;
 	width: calc(100% - 10px);
-	height: 80px;
+	height: 70px;
 	content: " ";
 	display: block;
 	z-index: 1;
@@ -93,28 +98,19 @@ main .wrapper {
 
 /* footer */
 footer .wrapper {
-	max-width: 1280px;
-}
-footer header {
-	padding: 60px 20px 0 20px;
-	text-align: center;
-}
-footer header .wrapper {
-	max-width: 400px;
-}
-footer header p {
-	margin-top: 20px;
-	color: #8a8d8f;
+	max-width: 1360px;
+	margin: 0 auto;
 }
 footer strong {
 	color: #8a8d8f;
 }
 .foreword {
-	padding: 20px;
+	padding: 60px 20px 20px 20px;
 	max-width: 500px;
 }
 .foreword p {
 	margin-bottom: 20px;
+	max-width: 420px;
 }
 .credits {
 	padding: 20px;
