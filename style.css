@@ -65,6 +65,13 @@ main .wrapper {
 	float: left;
 	position: relative;
 }
+@media (max-width: 480px) {
+	.person {
+		width: 230px;
+		max-width: none;
+		height: 310px;
+	}
+}
 .person:hover:after {
 	position: absolute;
 	left: 10px;
